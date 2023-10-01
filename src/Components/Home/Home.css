@@ -1,0 +1,35 @@
+body{
+    background: url(../../assets/avanger.jpeg),
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.card{
+    width: 220px;
+    height: 350px;
+    border:1px solid gray;
+}
+.home-container{
+    display: flex;
+}
+.card-img{
+    width: 100px;
+    border-radius: 50%;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.card-container{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+.btn{
+    background-color: cyan;
+}
